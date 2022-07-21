@@ -2,26 +2,14 @@
 <html lang="de">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="styles.css">
     <title>Kurzwelle</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <script>
-        function random_post(){
-          
-          var links=new Array()
-          links[0]="p1.html"
-          links[1]="p2.html"
-          links[2]="p3.html"
-        
-        
-          var myrandom=Math.round(Math.random()*links.length)
-        
-        window.location=links[myrandom]
-        }
-          window.onload = random_post()
-    </script>
+  <script>
+    window.onload = random_post()
+  </script>
 </body>
 </html> 

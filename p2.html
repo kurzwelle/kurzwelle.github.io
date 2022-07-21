@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Kurzwelle</title>
+    <script src="script.js"></script>
 </head>
 <header>
   <br>
@@ -16,24 +17,9 @@
 
 <p>This is the postogarpage</p>
 
-<script>
-    function random_post(){
-      
-      var links=new Array()
-      links[0]="p1.html"
-      links[1]="p2.html"
-      links[2]="p3.html"
-    
-    
-      var myrandom=Math.round(Math.random()*links.length)
-    
-    window.location=links[myrandom]
-    }
-</script>
-
-<form>
-<input type="button" value="WEITER" onClick="random_post()">
-</form>
+  <form>
+  <input value="WEITER" onClick="random_post()">
+  </form>
 
 </body>
 </html> 
