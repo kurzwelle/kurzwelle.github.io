@@ -1,7 +1,4 @@
 * {
-  margin-left: 45px;
-  margin-right: 45px;
-  text-align: justify;
   font-family: 'Times New Roman', Times, serif;
 
 }
@@ -14,8 +11,4 @@ input {
   text-decoration: underline;
   cursor: pointer;
   font-size: 100%;
-}
-
-p {
-
 }
